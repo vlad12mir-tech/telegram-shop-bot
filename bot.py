@@ -3,8 +3,8 @@ import requests
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
-TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
-EPN_TOKEN = os.getenv("EPN_TOKEN")
+TELEGRAM_BOT_TOKEN = os.getenv("8012914141:AAE4CxUu2bOhB7vzA7H2GvMyyiZztpcnTzs")
+EPN_TOKEN = os.getenv("Z9sg0M413jvhFizDuxCeHPSIUy7OwnLt")
 
 def start(update: Update, context: CallbackContext):
     update.message.reply_text("Привіт! Надішли мені ключове слово, і я знайду товари на AliExpress із партнерськими посиланнями 😉")
